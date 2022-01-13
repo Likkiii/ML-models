@@ -1,12 +1,14 @@
 # Pgm to predict maximally specific hypothesis using Find S Algorithm (without scikit-learn)
 
-num_attributes = int(input())
+num_attributes = int(input("\nEnter the number of attributes: "))
 attributes = []
+print("Enter the attributes: ")
 for i in range(num_attributes):
     attributes.append(input().split(" "))
     
-num_data = int(input())
+num_data = int(input("Enter the number of rows: "))
 data = []
+print("Enter the data: ")
 for i in range(num_data):
     data.append(input().split(" "))
 

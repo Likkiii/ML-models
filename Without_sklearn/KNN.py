@@ -1,6 +1,6 @@
 # Pgm to predict a new sample using K-Nearest Neighbours Algorithm (without scikit-learn)
 
-n = int(input("Enter number of rows:\n"))
+n = int(input("\nEnter number of rows:\n"))
 
 train = []
 for i in range(n):
@@ -32,4 +32,4 @@ def KNN(test, train, n):
         if L.count(i) == maxc:
             return i
 
-print("Classified as:", KNN(test, train, 3))
+print("Classified as: ", KNN(test, train, 3))

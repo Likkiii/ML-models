@@ -5,19 +5,22 @@ import math
 import numpy as np
 
 # Enter no. of points
-n = int(input())
+n = int(input("\nEnter the number of points: "))
 
 # K value
 k = 3
 
+print("\nEnter the points: ")
 # Input x values
 x = []
+print("\nEnter the x-values: ")
 for i in range(n): 
     a = int(input())
     x.append(a) 
     
 # Input y values
 y = []
+print("Enter the y-values: ")
 for i in range(n): 
     b = int(input())
     y.append(b) 

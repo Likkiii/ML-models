@@ -2,7 +2,6 @@
 
 m = 0
 heads = {}
-print("/nNaive Bayes Classifier")
 n = int(input("\nEnter Number of rows: "))
 for i in input("\nEnter table headings:\n").split(" "):
     heads.update({i: []})
